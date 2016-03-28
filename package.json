@@ -2,9 +2,10 @@
   "name": "Conversor",
   "version": "0.0.1",
   "description": "Conversor javascript de tipos",
-  "main": "conversor.js",
+  "main": "main.js",
   "scripts": {
-    "test": "mocha test",
+		"testf": "open test.html",
+    "test": "mocha",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://marrero-.github.io/",
   "devDependencies": {
+		"mocha": "*",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-minify-css": "^1.2.4",
