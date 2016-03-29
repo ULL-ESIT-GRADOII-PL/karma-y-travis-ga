@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
 		"testf": "open test.html",
-    "test": "mocha",
+    "test": "mocha test",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
