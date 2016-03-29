@@ -1,15 +1,16 @@
-# Testing your Front-End Code
-![OOP JS](http://marcofranssen.nl/images/681b1f62be27d6c8f99eb491c473786a4b716aab.png)
+# Karma y Travis
+![](https://cdn.travis-ci.org/images/travis-mascot-150-3791701416eeee8479e23fe4bb7edf4f.png)
+![](https://karma-runner.github.io/assets/img/banner.png)
 
-Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript.
+Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript, además de las pertinentes pruebas para corroborar el correcto funcionamiento de la aplicación.
 
 
-**Repositorios GitHub**
-* [Repositorio de la Organización: ](https://github.com/ULL-ESIT-GRADOII-PL/mocha-y-chai-ga.git)
-* [Repositorio de trabajo: ](https://github.com/marrero-/mocha-y-chai-ga.git)
+**Repositorios GitHub***
+[Repositorio de la Organización: ](https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-ga.git)
+* [Repositorio de trabajo: ](https://github.com/marrero-/karma-y-travis-ga.git)
 
 **Página de despliegue de la aplicación:**
-* [Web](http://ull-esit-gradoii-pl.github.io/mocha-y-chai-ga/)
+* [Web](http://ull-esit-gradoii-pl.github.io/karma-y-travis-ga/)
 
 **Página de los autores**
 
@@ -27,6 +28,7 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 ## [Karma](https://karma-runner.github.io/0.13/index.html)
 >The main goal for Karma is to bring a productive testing environment to developers. The environment being one where they don't have to set up loads of configurations, but rather a place where developers can just write the code and get instant feedback from their tests. Because getting quick feedback is what makes you productive and creative.
 
+## [Travis CI Doc](https://docs.travis-ci.com/)
 ## [Gulp](http://gulpjs.com/)
 
 ## [XRegExp](http://xregexp.com/)
