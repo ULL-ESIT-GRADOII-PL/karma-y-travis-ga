@@ -4,7 +4,7 @@
   "description": "Conversor javascript de tipos",
   "main": "main.js",
   "scripts": {
-    "test": "open test.html",
+    "test": "xdg-open index.html",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
