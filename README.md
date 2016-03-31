@@ -1,12 +1,13 @@
-# Karma y Travis
-![](https://cdn.travis-ci.org/images/travis-mascot-150-3791701416eeee8479e23fe4bb7edf4f.png)
+# Karma y Travis [![Build Status](https://travis-ci.org/marrero-/karma-y-travis-ga.svg?branch=master)](https://travis-ci.org/marrero-/karma-y-travis-ga)
 ![](https://karma-runner.github.io/assets/img/banner.png)
+![](https://cdn.travis-ci.org/images/travis-mascot-150-3791701416eeee8479e23fe4bb7edf4f.png)
+
 
 Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript, además de las pertinentes pruebas para corroborar el correcto funcionamiento de la aplicación.
 
 
-**Repositorios GitHub***
-[Repositorio de la Organización: ](https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-ga.git)
+**Repositorios GitHub**
+* [Repositorio de la Organización:](https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-ga.git)
 * [Repositorio de trabajo: ](https://github.com/marrero-/karma-y-travis-ga.git)
 
 **Página de despliegue de la aplicación:**

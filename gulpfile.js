@@ -1,7 +1,8 @@
 
 var gulp = require('gulp'),
 		gutil = require('gulp-util'),
-		uglify = require('gulp-uglify');
+		uglify = require('gulp-uglify'),
+		ghPages = require('gulp-gh-pages');
 
 var del = require('del');
 var minifyHTML = require('gulp-minify-html');
@@ -24,5 +25,10 @@ gulp.task('minify',function(){
 gulp.task('clean', function(cb){
 	del(['minified/*'],cb);
 });
+
+gulp.task('release', function() {
+     return gulp.src('./minified/**/*')
+       .pipe(ghPages());
+   });
 
 gulp.task('default', ['minify','clean']);
