@@ -9,17 +9,10 @@ module.exports = function(config) {
   frameworks: ['mocha', 'chai'],
   
    files: [
-      'assets/js/main.js',
-      'assets/js/medida.js',
-      'assets/js/temperatura.js',
-      'test/blanket.js',
-      'test/chai.js',
-      'test/medida_test.js',
-      'test/mocha-blanket.js',
-      'test/mocha.css',
-      'test/mocha.js',
-      'test/medida_test',
-      'test/temperatura_test.js',
+     'test/index.html',
+      'assets/js/*',
+      'test/*.js',
+      'test/*.css'
     ],
     
   client: {
@@ -33,7 +26,7 @@ module.exports = function(config) {
     ],
     
   preprocessors: {
-      //'index.html': ['html2js']
+      'test/index.html': ['html2js']
     },
     
   reporters: ['progress'],
@@ -46,7 +39,7 @@ module.exports = function(config) {
 
   autoWatch: true,
 
-  browsers: [ 'Firefox'], 
+     browsers: ['Firefox', 'PhantomJS'], 
 
   singleRun: false
   

@@ -40,7 +40,7 @@ gulp.task('test', function() {
     });
 });
 
-gulp.task('release', function() {
+gulp.task('deploy', function() {
      return gulp.src('./minified/**/*')
        .pipe(ghPages());
    });
