@@ -46,7 +46,7 @@ module.exports = function(config) {
 
   autoWatch: true,
 
-  browsers: ['PhantomJS', 'Chrome', 'Safari', 'Firefox'], 
+  browsers: ['PhantomJS', 'Firefox'], 
 
   singleRun: false
   
