@@ -9,7 +9,6 @@ module.exports = function(config) {
   frameworks: ['mocha', 'chai'],
   
    files: [
-      'assets/js/conversor.js',
       'assets/js/main.js',
       'assets/js/medida.js',
       'assets/js/temperatura.js',
@@ -19,6 +18,7 @@ module.exports = function(config) {
       'test/mocha-blanket.js',
       'test/mocha.css',
       'test/mocha.js',
+      'test/medida_test',
       'test/temperatura_test.js',
     ],
     
@@ -29,11 +29,11 @@ module.exports = function(config) {
     },
     
   exclude: [
-
+      'gulpfile.js'
     ],
     
   preprocessors: {
-      'index.html': ['html2js']
+      //'index.html': ['html2js']
     },
     
   reporters: ['progress'],
