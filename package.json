@@ -1,0 +1,42 @@
+{
+  "name": "Conversor",
+  "version": "0.0.1",
+  "description": "Conversor javascript de tipos",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run",
+    "testf": "xdg-open index.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js",
+    "karma": "node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aluXXXXXXX/STW03.git"
+  },
+  "keywords": [
+    "conversor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marrero-"
+  },
+  "homepage": "https://marrero-.github.io/",
+  "devDependencies": {
+      "chai": "~2.0.0",
+    "gulp-karma": "0.0.5",
+    "gulp-util": "^3.0.7",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^0.1.1",
+    "minimax": "*",
+    "mocha": "*",
+    "optimist": "*",
+    "phantomjs-prebuilt": "^2.1.5"
+  }
+}
