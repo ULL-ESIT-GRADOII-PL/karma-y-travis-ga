@@ -1,7 +1,9 @@
 
 var gulp = require('gulp'),
 		gutil = require('gulp-util'),
-		uglify = require('gulp-uglify');
+		uglify = require('gulp-uglify'),
+		ghPages = require('gulp-gh-pages'),
+		karma   = require('gulp-karma');
 
 var del = require('del');
 var minifyHTML = require('gulp-minify-html');
@@ -24,5 +26,23 @@ gulp.task('minify',function(){
 gulp.task('clean', function(cb){
 	del(['minified/*'],cb);
 });
+
+gulp.task('test', function() {
+  // Be sure to return the stream
+  return gulp.src([])
+    .pipe(karma({
+      configFile: 'karma.conf.js',
+      action: 'run'
+    }))
+    .on('error', function(err) {
+      // Make sure failed tests cause gulp to exit non-zero
+      throw err;
+    });
+});
+
+gulp.task('deploy', function() {
+     return gulp.src('./minified/**/*')
+       .pipe(ghPages());
+   });
 
 gulp.task('default', ['minify','clean']);
