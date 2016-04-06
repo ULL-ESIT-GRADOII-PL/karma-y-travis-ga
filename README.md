@@ -1,4 +1,4 @@
-# Karma y Travis [![Build Status](https://travis-ci.org/marrero-/karma-y-travis-ga.svg?branch=master)](https://travis-ci.org/marrero-/karma-y-travis-ga)
+# Karma y Travis [![Build Status](https://travis-ci.org/marreA/karma-y-travis-ga.svg?branch=master)](https://travis-ci.org/marreA/karma-y-travis-ga)
 ![](https://karma-runner.github.io/assets/img/banner.png)
 ![](https://cdn.travis-ci.org/images/travis-mascot-150-3791701416eeee8479e23fe4bb7edf4f.png)
 
